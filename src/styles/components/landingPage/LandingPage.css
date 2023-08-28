@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.Main-Frame{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.Nav-Bar-Frame{
+    height: 25%;
+    width: 100%;
+    margin-right: 620px;
+    background-color: rgb(253, 254, 255);
+    border: 1px solid #5284E9;
+}
+.Logo{
+    margin-left: 45px;
+    display: flex;
+}
+.Logo-Frame{
+    width: 80px;
+}
+
+.Logo-Name-Frame p{
+    color: #5284E9;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    right: 10%;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: "DM SANS", "Comic Sans MS", cursive;
+    margin-top: 15px;
+}
+.Info-Frame{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+.link-bars {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    text-decoration-color: black;
+    margin-right: 180px;
+}
+
+.link-bars a{
+    color: #5284E9;
+    text-decoration-style: solid;
+    font-size: small;
+    font-weight: normal;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.auth-buttons{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+#header-signIn, #header-signUp{
+    color: #5284E9;
+    border-color: black;
+    height: 50px;
+    width: 157px;
+    left: 181px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 8px 16px 8px 16px;
+    /*box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);*/
+    font-weight: bolder;
+    font-size: large;
+}
+.Activity-Frame{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(rgb(227, 231, 237), rgb(253, 254, 255));
+}
+.word-frame{
+    width: 40%;
+    height: 30%;
+}
+.word-frame h1{
+    width: 610px;
+    height: 100px;
+    margin-top: 117px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: "DM SANS", "Comic Sans MS", cursive;
+    line-height: 42px;
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: #5284E9;
+    text-align: left;
+}
+.word-frame p{
+    width: 540px;
+    height: 45px;
+    text-align: left;
+    font-weight: 350;
+    font-style: italic;
+    line-height: 25px;
+    font-family: "DM SANS", "Comic Sans MS", cursive;
+    font-size: medium;
+    color: #5284E9;
+}
+#author-register{
+    color: #edf8f8;
+    background-color: #5284E9;
+    border-color: black;
+    height: 50px;
+    width: 357px;
+    margin-right: 175px;
+    border-radius: 5px;
+    padding: 8px 16px 8px 16px;
+    /*box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);*/
+    font-weight: bolder;
+    font-size: large;
+}
+.Lottie-image{
+    overflow: hidden;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Lottie-frame{
+    width: 40%;
+    height: 20%;
+}
+.End-Frame{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(253, 254, 255);
+    border: 1px solid #5284E9;
+}
